@@ -25,5 +25,10 @@
       }
     ]
   },
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "serve": "vite preview"
+  }
 }
