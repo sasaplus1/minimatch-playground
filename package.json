@@ -13,5 +13,17 @@
     "typescript": "^5.1.6",
     "vite": "^4.4.7"
   },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "none",
+    "overrides": [
+      {
+        "files": "*.json",
+        "options": {
+          "parser": "json-stringify"
+        }
+      }
+    ]
+  },
   "private": true
 }
