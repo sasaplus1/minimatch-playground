@@ -1,0 +1,50 @@
+@charset "utf-8";
+@import 'ress';
+
+body {
+  font-family: monospace;
+}
+
+textarea,
+input[type='text'] {
+  border: 1px solid black;
+  padding: 4px;
+  width: 100%;
+}
+
+input[type='checkbox'] {
+  margin-right: 4px;
+}
+
+details {
+  cursor: pointer;
+}
+
+details[open] > summary + * {
+  margin-top: 8px;
+}
+
+h1 {
+  margin: 8px;
+}
+
+label + * {
+  margin-top: 4px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main > * {
+  margin: 8px;
+}
+
+span[aria-label] + span {
+  margin-left: 4px;
+}
+
+ol {
+  margin-top: 4px;
+}
