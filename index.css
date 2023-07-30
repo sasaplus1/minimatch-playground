@@ -46,5 +46,23 @@ span[aria-label] + span {
 }
 
 ol {
+  list-style: none;
   margin-top: 4px;
+}
+
+aside {
+  margin: 8px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 4px;
+}
+
+ul > li {
+  margin-top: 4px;
+}
+
+ul > li:first-of-type {
+  margin-top: 0;
 }
