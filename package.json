@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "log-symbols": "^5.1.0",
+    "minimatch": "^9.0.3",
+    "preact": "^10.16.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.5.0",
+    "@tsconfig/strictest": "^2.0.1",
+    "@types/minimatch": "^5.1.2",
+    "prettier": "^3.0.0",
+    "ress": "^5.0.2",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.7"
+  },
+  "private": true
+}
